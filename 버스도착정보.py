@@ -5,7 +5,7 @@ import xmltodict
 def busStation(station_name:str): # 정류장 아이디 불러오는 함수
     url = 'http://apis.data.go.kr/6410000/busstationservice/getBusStationList'
     params ={
-        'serviceKey' : 'ROzLzalbkICLJf7ClZsO3Dd2UKL3bceROmPaOfbnqFVcXGqYTp2A6PDofvl3hmqg7p3jIgaa0M+LUkrX5KKcEQ==',
+        'serviceKey' : '공공데이터 포털에서 받은 서비스 키 입력',
         'keyword' : station_name
         }
 
@@ -33,7 +33,7 @@ def busStation(station_name:str): # 정류장 아이디 불러오는 함수
 def routeId(routeId:str): # 노선 정보 불러오는 함수 
     url = 'http://apis.data.go.kr/6410000/busrouteservice/getBusRouteInfoItem'
     params ={
-        'serviceKey' : 'ROzLzalbkICLJf7ClZsO3Dd2UKL3bceROmPaOfbnqFVcXGqYTp2A6PDofvl3hmqg7p3jIgaa0M+LUkrX5KKcEQ==',
+        'serviceKey' : '공공데이터 포털에서 받은 서비스 키 입력',
         'routeId' : routeId
         }
 
@@ -51,7 +51,7 @@ def busArrival():  # 버스 도착 정보 불러오는 함수
     stationId = busStation(station_name)
     url = 'http://apis.data.go.kr/6410000/busarrivalservice/getBusArrivalList'
     params ={
-        'serviceKey' : 'ROzLzalbkICLJf7ClZsO3Dd2UKL3bceROmPaOfbnqFVcXGqYTp2A6PDofvl3hmqg7p3jIgaa0M+LUkrX5KKcEQ==', 
+        'serviceKey' : '공공데이터 포털에서 받은 서비스 키 입력', 
         'stationId' : stationId 
         }
 
