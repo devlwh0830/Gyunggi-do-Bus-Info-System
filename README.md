@@ -5,5 +5,5 @@
 
 # 사용된 API
 - https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15080346
-- https://www.data.go.kr/iim/api/selectAPIAcountView.do
+- https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15080666
 - https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15080662
